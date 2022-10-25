@@ -28,14 +28,19 @@
     },
     "dependencies": {
     },
-    "peerDependencies": {
-        "react": ">=16.13.1",
-        "react-native": ">=0.63.2",
-        "react-native-windows": ">=0.63.3"
+    "peerDependencies" : {        
+    },
+    "peerDependenciesMeta": {
+        "react": {
+            "optional": true
+        },
+        "react-native": {
+            "optional": true
+        },
+        "react-native-windows": {
+            "optional": true
+        }
     },
     "devDependencies": {
-        "react": "16.13.1",
-        "react-native": "0.63.2",
-        "react-native-windows": "^0.63.3"
     }
 }
